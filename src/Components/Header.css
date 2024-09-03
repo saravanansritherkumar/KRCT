@@ -1,6 +1,22 @@
-#header{
+.header
+{
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
-    background-color:var(--main-color);
-    padding:10px;
+    justify-content: space-between;
 }
 
+.header-main #img1
+{
+    width: 55px;
+    height: 25px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.header-side #img2,#img3,#img4,#img5,#img6,#img7,#img8
+{
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
