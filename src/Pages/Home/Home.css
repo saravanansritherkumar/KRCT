@@ -1,0 +1,17 @@
+.container
+{
+    margin-top: 5px;
+}
+img
+{
+    width: 100px;
+    height: 65px;
+    /* box-shadow: 2px 2px 2px grey; */
+}
+h1{
+    font-size: 8px;
+    border-bottom: 1px dotted green;
+}
+#about-para{
+    font-size: 3px;    
+}

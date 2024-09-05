@@ -1,9 +1,13 @@
 import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-        <Header/>
+        {/* <Header/> */}
+        <Navbar/>
+        {/* <Home/> */}
     </div>
   );
 }

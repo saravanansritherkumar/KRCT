@@ -1,0 +1,27 @@
+li{
+    font-size: 14px;
+    list-style: none;
+    font-weight: 500;
+    margin-left:20px;
+    color: white;
+}
+.nag
+{
+    display: flex;
+    padding: 5px;
+    background-color: #3895d3;
+    box-shadow: 2px 2px 2px  rgb(166, 165, 165);
+}
+
+@media screen and (max-width:400px)
+{
+    li
+    {
+     font-size: 2px;   
+    }
+    .nag
+    {
+        margin-top: 0px;
+    }
+    
+}
