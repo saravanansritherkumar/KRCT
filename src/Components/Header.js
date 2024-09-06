@@ -25,6 +25,10 @@ const Header = () => {
      <img src={img7} alt=""  id='img7'/>
      <img src={img8} alt=""  id='img8'/>
      </div> 
+     <br/>
+     <br/>
+     <br/>
+     <br/>
 
       </div>
     </>
