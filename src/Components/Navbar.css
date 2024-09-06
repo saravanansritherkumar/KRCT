@@ -1,18 +1,37 @@
+.navigation-bar
+{
+    margin-top: 15px;
+}
+
 li{
+    /* font-size: 16px; */
     font-size: 14px;
     list-style: none;
-    font-weight: 500;
+    font-weight: 600;
     margin-left:20px;
     color: white;
+    margin-bottom: 5px;
 }
-.nag
+.navy
 {
     display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #3895d3;
+    box-shadow: 2px 2px 2px  rgb(166, 165, 165);
+}
+.navy-2 li
+{
+    margin-left: 50px;
+}
+.navy-2
+{
+    display: flex;
+    justify-content: start;
     padding: 5px;
     background-color: #3895d3;
     box-shadow: 2px 2px 2px  rgb(166, 165, 165);
 }
-
 @media screen and (max-width:400px)
 {
     li

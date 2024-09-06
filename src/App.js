@@ -5,9 +5,9 @@ import Home from "./Pages/Home/Home";
 function App() {
   return (
     <div className="App">
-        {/* <Header/> */}
+        <Header/>
         <Navbar/>
-        {/* <Home/> */}
+        <Home/>
     </div>
   );
 }
