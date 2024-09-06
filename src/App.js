@@ -8,6 +8,8 @@ function App() {
         <Header/>
         <Navbar/>
         <Home/>
+
+      {/* commit changes */}
     </div>
   );
 }
