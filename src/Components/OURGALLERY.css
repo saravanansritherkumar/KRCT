@@ -1,0 +1,42 @@
+#scroll{
+   display: flex;
+   overflow-x: auto;
+   width: 750px;
+}
+#im{
+   padding-left: 25px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   }
+
+   .galleryheading{
+      color: rgb(0, 128, 255);
+      margin-left: 300px;
+      padding-top: 10px;
+   }
+   
+
+   @media screen  and (max-width:768px){
+
+    #scroll{
+   display: flex;
+   overflow-x: auto;
+   width: 300px;
+}
+#im{
+   height: 100px;
+   padding-left: 20px;
+
+}
+
+.galleryheading{
+   color: rgb(0, 128, 255);
+   padding-top: 10px;
+   margin-left: 20px;
+   font-family: poppins;
+}
+
+
+      
+      
+   }
