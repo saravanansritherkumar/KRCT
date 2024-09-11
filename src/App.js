@@ -1,17 +1,12 @@
-import Header from "./Components/Header";
-import Footer from "./Components/Footer"
-import OURGALERY  from './Components/OURGALERY'
+import React from 'react'
+import Header from './Components/Header'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <Header/>
-        <OURGALERY/>
-        <Footer/>
-        
-        
+    <div>
+      <Header/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
