@@ -1,9 +1,13 @@
 *{
     margin:0;
     padding:0;
+<<<<<<< HEAD
     font-family: serif;
     font-family:Poppins;
     /* list-style: none; */
+=======
+    font-family: poppins;
+>>>>>>> dcb95048b5fe17779c1262e1b78a0de023a3ed0f
 }
 :root {
     --main-color:blue;

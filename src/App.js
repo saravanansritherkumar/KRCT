@@ -1,12 +1,27 @@
-import React from 'react'
-import Header from './Components/Header'
+import Header from "./Components/Header";
+<<<<<<< HEAD
+import Footer from "./Components/Footer"
+import OURGALERY  from './Components/OURGALERY'
+=======
+import Navbar1 from "./Components/Navbar1";
+import Home from "./Pages/Home/Home";
+>>>>>>> saravanan-krct
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Header/>
+    <div className="App">
+        <Header/>
+<<<<<<< HEAD
+        <OURGALERY/>
+        <Footer/>
+        
+        
+=======
+        <Navbar1/>
+        <Home/>
+>>>>>>> saravanan-krct
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

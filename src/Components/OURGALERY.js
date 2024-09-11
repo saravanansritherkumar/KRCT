@@ -11,8 +11,15 @@ import '../Components/OURGALLERY.css'
 
 const OURGALERY = () => {
   return (
+<<<<<<< HEAD
     <>
       <center>
+=======
+     
+<div className='mainscroll ' >
+
+  <div id='mainscroll2'>
+>>>>>>> dcb95048b5fe17779c1262e1b78a0de023a3ed0f
 
         <div className='mainscroll' >
           <h4 className='galleryheading'>OUR GALLERY</h4>
@@ -27,7 +34,28 @@ const OURGALERY = () => {
         </div>
       </center>
 
+<<<<<<< HEAD
     </>
+=======
+<div   id='scroll' > 
+
+
+    
+   <img src={img1} id='im' height={200} width={220}></img>
+  <img src={img2} id='im' height={200} width={300} ></img>
+  <img src={img3} id='im' height={200} width={300} ></img>
+  <img src={img4} id='im' height={200} width={400} ></img>
+  <img src={img5} id='im' height={200} width={400} ></img>
+  <img src={img6} id='im' height={200} width={400} ></img>
+  </div>
+
+
+  </div>
+
+
+        
+    </div>
+>>>>>>> dcb95048b5fe17779c1262e1b78a0de023a3ed0f
   )
 }
 

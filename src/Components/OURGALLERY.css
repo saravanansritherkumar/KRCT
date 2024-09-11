@@ -15,10 +15,7 @@
       padding-top: 10px;
    }
    
-.mainscroll
-{
-   width: 100%;
-}
+
    @media screen  and (max-width:768px){
 
     #scroll{
@@ -27,7 +24,7 @@
    width: 300px;
 }
 #im{
-   height: 100px;
+   height: 150px;
    padding-left: 20px;
 
 }
@@ -37,6 +34,10 @@
    padding-top: 10px;
    margin-left: 20px;
    font-family: poppins;
+}
+
+#mainscroll2{
+   margin-left: 0px;
 }
 
 

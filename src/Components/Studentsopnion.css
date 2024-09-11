@@ -1,0 +1,35 @@
+.cardimagesize{
+    height: 200px;
+    width: 200px;
+}
+.mainstudents{
+    background-color: blue;
+}
+#image1{
+    border-radius: 100%;
+    padding-left: 50px ;
+    padding-right: 50px;
+    position: relative;
+    top: -30px;
+}
+
+#image2{
+    height: 100px;
+    border-radius: 100%;
+    padding-right: 50px;
+    padding-left: 50px ;
+    position: relative;
+    top: -30px;
+
+
+}
+#image3{
+    height: 100px;
+    border-radius: 100%;
+    padding-right: 50px;
+    padding-left: 50px ;
+    position: relative;
+    top: -30px;
+
+
+}
