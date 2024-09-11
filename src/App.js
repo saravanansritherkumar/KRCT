@@ -1,15 +1,13 @@
 import Header from "./Components/Header";
-import Navbar from "./Components/Navbar";
+import Navbar1 from "./Components/Navbar1";
 import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
         <Header/>
-        <Navbar/>
+        <Navbar1/>
         <Home/>
-
-      {/* commit changes */}
     </div>
   );
 }

@@ -1,0 +1,49 @@
+.navbar-main
+{
+    background-color: #3895d3;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.navbar-main li
+{
+    list-style: none;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.dropdown-menu
+{
+    margin-top: 60px;
+    background-color: #3895d3;
+    border: none;
+}
+
+.dropdown-menu li
+{
+    width: 100%;
+    padding-left: 70px;
+    margin-left: 0px;
+    padding-right: 100px;
+}
+
+.dropdown-menu li:hover
+{
+    background-color: aliceblue;
+}
+
+@media screen and (max-width:1000px)
+{
+    .navbar-main
+    {
+        display: none;
+    }    
+}
