@@ -1,0 +1,19 @@
+.recruiters{
+    padding-left: 15px;
+}
+#recruitersheading{
+    text-align: center;
+    color: rgb(0, 119, 255);
+    font-family: poppins;
+}
+@media screen and (max-width:768px) {
+
+    #recruitersheading{
+        text-align: center;
+        color: rgb(0, 119, 255);
+        font-family: poppins;
+        text-align: start;
+        padding-left: 20px;
+    }
+        
+}

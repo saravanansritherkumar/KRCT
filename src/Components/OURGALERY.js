@@ -11,12 +11,14 @@ import '../Components/OURGALLERY.css'
 
 const OURGALERY = () => {
   return (
-    
-<div className='mainscroll' >
+     
+<div className='mainscroll ' >
+
+  <div id='mainscroll2'>
 
 <h4 className='galleryheading'>OUR GALLERY</h4>
 
-<div  className='col-lg-3' id='scroll' > 
+<div   id='scroll' > 
 
 
     
@@ -29,7 +31,7 @@ const OURGALERY = () => {
   </div>
 
 
-  
+  </div>
 
 
         
