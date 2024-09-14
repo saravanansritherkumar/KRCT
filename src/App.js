@@ -1,24 +1,10 @@
-import Header from "./Components/Header";
-import Footer from "./Components/Footer"
-import OURGALERY  from './Components/OURGALERY'
-import OURRecruiters from "./Components/OURRecruiters";
-import Studentsopnion from "./Components/Studentsopnion";
-import Topplacement from './Components/Topplacemnet'
-
+import Half from './Half'
+import Half1 from './Half1'
 
 function App() {
   return (
     <div className="App">
-        {/* <Header/> */}
-        {/* <OURRecruiters/> */}
-<Studentsopnion/>
-
-{/* <Topplacement/> */}
-        {/* <OURGALERY/> */}
-        {/* <Footer/> */}
-
-        
-        
+      <Half/>
     </div>
   );
 }
