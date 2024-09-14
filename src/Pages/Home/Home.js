@@ -40,6 +40,7 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-6" id='about-us'>
               <h1>About Us</h1>
+              <div className='border-bottom'><span className='hh'></span><span className='hh1'></span></div>
               <p id='about-para'>KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p>
             </div>
             <div className="col-lg-6 p-3">
@@ -83,6 +84,8 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+
+
               <div className="col-lg-3">
                 <marquee behaviour="infinite" direction="up" id="myMarq">
 
@@ -170,6 +173,7 @@ const Home = () => {
       <div className="why-krct">
         <div className="container">
           <h1>WHY KRCT</h1>
+          <div className='border-bottom'><span className='hh'></span><span className='hh1'></span></div>
           <div className="row">
             <div className="col-lg-4 p-4 myCard">
               <div className="card">

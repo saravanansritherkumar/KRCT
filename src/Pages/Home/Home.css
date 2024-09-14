@@ -70,3 +70,24 @@
 #myMarq{
     height:450px;
 }
+
+.border-bottom
+{
+    position: relative;
+    top: -20px;
+}
+.hh
+{
+    background-color: rgb(255, 128, 0);
+    width: 50px;
+    height: 5px;
+    margin-left: 5px;
+}
+.hh1
+{
+    background-color: rgb(255, 128, 0);
+    opacity: 0.3;
+    width: 50px;
+    height: 5px;
+    margin-left: 5px;
+}

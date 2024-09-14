@@ -1,0 +1,127 @@
+.footerconect1{
+    display: flex;
+}
+.footerconect2{
+    display: flex;
+}
+.footerconect3{
+    display: flex;
+}
+#footericons{
+    padding-right: 20px;
+    margin-top: 5px;
+    color: white;
+}
+.footermedia{
+    padding-left: 50px;
+    color: white;
+}
+.footerheading2{
+    margin-left: 28px;
+    padding-bottom: 0px;
+    color: yellow;
+}
+.footercontent1{
+    margin-top: 5px;
+}
+.footerheading1{
+    padding-bottom: 7px;
+    color: yellow;
+    padding-top: 6px;
+
+}
+.footermain1{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.footermap{
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.footermain{
+    background-image: url('../Assets/images/bg.jpg');
+}
+.footercontent{
+    color: white;
+}
+#footermedia{
+    color: white;
+    padding-left: 30px;
+    border: solid rgba(117, 202, 241, 0.873);
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+.footercopyright{
+    color: white;
+    justify-content: center;
+
+}
+@media screen and (max-width:768px) {
+
+    .footerconect1{
+        display: flex;
+    }
+    .footerconect2{
+        display: flex;
+    }
+    .footerconect3{
+        display: flex;
+    }
+    #footericons{
+        padding-right: 20px;
+        margin-top: 5px;
+        color: white;
+    }
+    .footermedia{
+        padding-left: 50px;
+        color: white;
+    }
+    .footerheading2{
+        margin-left: 50px;
+        padding-bottom: 6px;
+        color: yellow;
+    }
+    .footercontent1{
+        margin-top: 5px;
+    }
+    .footerheading1{
+        padding-bottom: 7px;
+        color: yellow;
+    
+    }
+    .footermain1{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .footermap{
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .footermain{
+        background-image: url('../Assets/images/bg.jpg');
+        width: 100%;
+    
+    }
+    .footercontent{
+        color: white;
+    }
+    #footermedia{
+        color: white;
+        padding-left: 30px;
+        border: solid  rgba(117, 202, 241, 0.873);
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+    
+    }
+    .footercopyright{
+        color: white;
+        font-size: 10px;
+        padding-left: 0px;
+        
+    } 
+    
+    
+}

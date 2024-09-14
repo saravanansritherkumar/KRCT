@@ -1,0 +1,17 @@
+.hh
+{
+    background-color: rgb(255, 128, 0);
+    width: 50px;
+    height: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.hh1
+{
+    background-color: rgb(255, 128, 0);
+    opacity: 0.3;
+    width: 50px;
+    height: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
