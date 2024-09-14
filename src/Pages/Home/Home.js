@@ -163,7 +163,6 @@ const Home = () => {
                     </div>
                   </div>
                 </marquee>
-
               </div>
             </div>
           </div>
