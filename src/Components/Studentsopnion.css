@@ -3,7 +3,7 @@
     width: 200px;
 }
 .mainstudents{
-    background-color: blue;
+    background-color: rgb(241, 235, 235);
 }
 #image1{
     border-radius: 100%;
@@ -30,6 +30,30 @@
     padding-left: 50px ;
     position: relative;
     top: -30px;
+}
+#para1{
+    padding-left: 10px;
+}
+.card2{
+    padding-top: 20px;
+}
+.card3{
+    padding-top: 40px;
 
+}
+#name1{
 
+    text-align: center;
+    color: rgb(6, 6, 124);
+
+}
+#name2{
+    text-align: center;
+    color: rgb(6, 6, 124);
+    padding-top: 50px;
+}
+#name3{
+    text-align: center;
+    color: rgb(6, 6, 124);
+    padding-top: 50px;
 }

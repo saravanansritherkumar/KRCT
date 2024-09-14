@@ -21,33 +21,92 @@ const Studentsopnion = () => {
 
                 <div className='cardcontainer'>
                   <div className='row'>
-                    <div className='col-lg-3 p-5' >
+                    <div className='col-lg-3 p-5 col-md-1' >
                       <div className='card '>
                         <img src={img2} id='image1'></img>
 
                         <div className='card-body'>
 
                           <div className='card-title'>
-                            <p>Our college is the Best place to 
-                            equip and widen out knowledge provides numerous platform to 
-                            showcase our talents and mold us in the right path
+                            <p >Our college is the Best place to
+                              equip and widen out knowledge provides numerous platform to
+                              showcase our talents and mold us in the right path
                             </p>
+                            <h6 id='name1'>THARANI</h6>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div className='col-lg-3 p-5' >
+                    <div className='col-lg-3 p-5 col-md-1' >
                       <div className='card '   >
                         <img src={img3} id='image2'></img>
                         <div className='card-body'>
 
                           <div className='card-title'>
+                            <div className='card2'>
+                              <p>Best Bridge to explore the great levels of live-proud to be a KRCTian
+                              </p>
 
-                          <p>Best Bridge to explore the great levels of live-proud to be a KRCTian
+                              <h6 id='name2'>SHABHARISH SASINDHRAN</h6>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className='col-lg-3 p-5 col-md-1'>
+                      <div className='card ' >
+                        <img src={img4} id='image3' height={120} />
+
+
+                        <div className='card-body'>
+                          <div className='card3'>
+                            <div className='card-title'>
+
+                              <p>  it was pleasure to be an KRCT's product </p>
+
+                              <h6 id='name3'>HARIHARAN</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+
+
+
+            </div>
+            <div class="carousel-item">
+
+
+
+
+              <div calssName="cardimagesize">
+
+                <div className='cardcontainer'>
+                  <div className='row'>
+                    <div className='col-lg-3 p-5 col-md-1' >
+                      <div className='card '>
+                        <img src={img2} id='image1' />
+
+
+                        <div className='card-body'>
+
+                          <div className='card-title'>
+
+                            <p>Our college is the Best place to
+                              equip and widen out knowledge provides numerous platform to
+                              showcase our talents and mold us in the right path
                             </p>
-
-                            <h6>SHABHARISH SASINDHRAN</h6>
+                            <h6 id='name1'>THARANI</h6>
 
 
                           </div>
@@ -55,79 +114,39 @@ const Studentsopnion = () => {
                       </div>
                     </div>
 
-                    <div className='col-lg-3 p-5'>
-                      <div className='card ' >
-                        <img src={img4} id='image3' height={120} />
-
-
-                        <div className='card-body'>
-
-                          <div className='card-title'>
-
-                            <p>  it was pleasure to be an KRCT's product </p>
-
-                            <h6>HARIHARAN</h6>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-
-
-
-
-
-            </div>
-            <div class="carousel-item">
-
-
-
-
-              <div calssName="cardimagesize">
-
-                <div className='cardcontainer'>
-                  <div className='row'>
-                    <div className='col-lg-3 p-5' >
-                      <div className='card '>
-                        <img src={img2} id='image1' />
-
-
-                        <div className='card-body'>
-
-                          <div className='card-title'>
-                            <h4>hi</h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className='col-lg-3 p-5' >
+                    <div className='col-lg-3 p-5 col-md-1' >
                       <div className='card '   >
                         <img src={img3} id='image2' />
                         <div className='card-body'>
 
                           <div className='card-title'>
+                            <div className='card2'>
 
-                            <h4>hi</h4>
+                              <p>Best Bridge to explore the great levels of live-proud to be a KRCTian
+                              </p>
+
+                              <h6 id='name2'>SHABHARISH SASINDHRAN</h6>
+
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-
-                    <div className='col-lg-3 p-5'>
+                    <div className='col-lg-3 p-5 col-md-1'>
                       <div className='card ' >
                         <img src={img4} id='image3' height={120} />
 
                         <div className='card-body'>
+                          <div className='card3'>
+                            <div className='card-title'>
 
-                          <div className='card-title'>
+                              <p>  it was pleasure to be an KRCT's product </p>
 
-                            <h4>hi</h4>
+                              <h6 id='name3'>HARIHARAN</h6>
+
+                            </div>
+
+
                           </div>
                         </div>
                       </div>
@@ -158,41 +177,60 @@ const Studentsopnion = () => {
 
                 <div className='cardcontainer'>
                   <div className='row'>
-                    <div className='col-lg-3 p-5' >
+                    <div className='col-lg-3 p-5 col-md-1' >
                       <div className='card '>
                         <img src={img2} id='image1' />
+
+                        <p id='para1'>  Our college is the Best place to
+                          equip and widen out knowledge provides numerous platform to
+                          showcase our talents and mold us in the right path
+                        </p>
+                        <h6 id='name1'>THARANI</h6>
+
 
                         <div className='card-body'>
 
                           <div className='card-title'>
-                            <h4>hi</h4>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div className='col-lg-3 p-5' >
+                    <div className='col-lg-3 p-5 col-md-1' >
                       <div className='card '   >
                         <img src={img3} id='image2' />
                         <div className='card-body'>
 
                           <div className='card-title'>
+                            <div className='card2'>
 
-                            <h4>hi</h4>
+                              <p>Best Bridge to explore the great levels of live-proud to be a KRCTian
+                              </p>
+
+                              <h6 id='name2'>SHABHARISH SASINDHRAN</h6>
+
+
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div className='col-lg-3 p-5'>
+                    <div className='col-lg-3 p-5 col-md-1'>
                       <div className='card ' >
                         <img src={img4} id='image3' height={120} />
 
-                        <div className='card-body'>
+                        <div className='card3'>
+                          <div className='card-body'>
 
-                          <div className='card-title'>
+                            <div className='card-title'>
+                              <p>  it was pleasure to be an KRCT's product </p>
 
-                            <h4>hi</h4>
+                              <h6 id='name3'>HARIHARAN</h6>
+
+                            </div>
+
+
                           </div>
                         </div>
                       </div>
