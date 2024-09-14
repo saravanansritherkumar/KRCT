@@ -1,12 +1,14 @@
+import React from 'react'
 import Half from './Half'
 import Half1 from './Half1'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
+      {/* <Half1/> */}
       <Half/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

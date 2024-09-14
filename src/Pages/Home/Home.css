@@ -1,0 +1,93 @@
+
+.carousel-item>img
+{
+    width: 100%;
+    height:545px;
+}
+.caroo .carousel-inner{
+    background-color:red;
+}
+@media (max-width:500px){
+    .carousel-item>img
+    {
+        width: 100%;
+        height:100px;
+    }
+}
+#imag1
+{
+    margin-top: 20px;
+    width:80%;
+}
+
+#about-us
+{
+    font-size: 23px;
+    display:flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content:center;
+}
+#about-para
+{
+    word-spacing: 2px;
+}
+.news-section
+{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+.cardy
+{
+    display: flex;
+}
+
+.myCard .card-body{
+    position:relative;
+    top:-50px;
+    padding:10px 50px;
+}
+.myCard .card-title{
+    text-align:center;
+}
+.card-content{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding:15px;
+    background:linear-gradient(#cbcbcb,#fff6f6);
+}
+.myCard>.card{
+    border-radius:0px;
+}
+.myCard>.card>img{
+    border-radius: 0;
+
+}
+#myMarq{
+    height:450px;
+}
+
+.border-bottom
+{
+    position: relative;
+    top: -20px;
+}
+.hh
+{
+    background-color: rgb(255, 128, 0);
+    width: 50px;
+    height: 5px;
+    margin-left: 5px;
+}
+.hh1
+{
+    background-color: rgb(255, 128, 0);
+    opacity: 0.3;
+    width: 50px;
+    height: 5px;
+    margin-left: 5px;
+}

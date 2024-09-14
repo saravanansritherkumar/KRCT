@@ -1,12 +1,12 @@
-.row{
+.topplacement .row{
     margin-left: 200px;
 
 }
-.wipro{
+.topplacement .wipro{
     width: 150px;
 }
 
-.container-fluid{
+.topplacement .container-fluid{
     background-color: rgb(0, 72, 255);
 }
 

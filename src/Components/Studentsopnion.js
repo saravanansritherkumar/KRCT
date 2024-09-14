@@ -15,10 +15,7 @@ const Studentsopnion = () => {
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-
-
               <div calssName="cardimagesize">
-
                 <div className='cardcontainer'>
                   <div className='row'>
                     <div className='col-lg-3 p-5 col-md-1' >
