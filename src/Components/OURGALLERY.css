@@ -12,7 +12,7 @@
    .galleryheading{
       color: rgb(0, 128, 255); 
       padding-top: 10px;
-      margin-left: 30px;
+      text-align: center;
    }
    .mainscroll{
       background-color: rgb(231, 228, 228);

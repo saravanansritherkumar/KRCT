@@ -56,7 +56,10 @@
     margin-top: 45px;
 
 }
-
+#headingstudentsopinion{
+    color: rgb(0, 102, 255);
+    text-align: center;
+}
 @media screen and (max-width:768px) {
 
     .studentsopnion{

@@ -11,12 +11,15 @@ import '../Components/OURGALLERY.css'
 
 const OURGALERY = () => {
   return (
-     
+     <>
+    <h4 className='galleryheading'>Our Gallery</h4>
+
 <div className='mainscroll ' >
+
+
 
   <div id='mainscroll2'>
 
-<h4 className='galleryheading'>Our Gallery</h4>
 <div   id='scroll' > 
 
 
@@ -35,9 +38,10 @@ const OURGALERY = () => {
 
         
     </div>
+    </>
+
   )
 }
-
 export default OURGALERY
 
 // Civil dept/civil lab.png'
