@@ -22,18 +22,18 @@ const OURRecruiters = () => {
 <h4 id='recruitersheading'>OUR RECRUITERS</h4>
         <marquee behaviour='right'>
 
-        <img  src={img1} height={50} width={80} className='recruiters'></img>
-        <img  src={img2} height={30} width={80} className='recruiters'></img>
-        <img src={img3} height={50} width={80} className='recruiters'></img>
-        <img src={img4} height={30} width={80} className='recruiters'></img>
-        <img src={img5} height={80} width={80} className='recruiters'></img>
-        <img src={img6} height={80} width={80} className='recruiters'></img>
-        <img src={img7} height={40} width={80} className='recruiters'></img>
-        <img src={img8} height={80} width={80} className='recruiters'></img>
-        <img src={img9} height={40} width={80} className='recruiters'></img>
-        <img src={img10} height={40} width={80} className='recruiters'></img>
-        <img src={img11} height={50} width={80} className='recruiters'></img>
-        <img src={img12} height={50} width={80} className='recruiters'></img>
+        <img  src={img1} height={100} width={200} className='recruiters'></img>
+        <img  src={img2} height={60} width={150} className='recruiters'></img>
+        <img src={img3} height={200} width={200} className='recruiters'></img>
+        <img src={img4} height={100} width={200} className='recruiters'></img>
+        <img src={img5} height={100} width={200} className='recruiters'></img>
+        <img src={img6} height={100} width={200} className='recruiters'></img>
+        <img src={img7} height={100} width={200} className='recruiters'></img>
+        <img src={img8} height={100} width={200} className='recruiters'></img>
+        <img src={img9} height={100} width={200} className='recruiters'></img>
+        <img src={img10} height={100} width={200} className='recruiters'></img>
+        <img src={img11} height={100} width={200} className='recruiters'></img>
+        <img src={img12} height={100} width={100} className='recruiters'></img>
 
 
         </marquee>

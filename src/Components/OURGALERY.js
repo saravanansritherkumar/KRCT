@@ -16,8 +16,7 @@ const OURGALERY = () => {
 
   <div id='mainscroll2'>
 
-<h4 className='galleryheading'>OUR GALLERY</h4>
-
+<h4 className='galleryheading'>Our Gallery</h4>
 <div   id='scroll' > 
 
 
