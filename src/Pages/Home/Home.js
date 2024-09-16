@@ -3,12 +3,19 @@ import img1 from "../../Assets/images/Backgate.jpeg"
 import "../Home/Home.css"
 import img2 from "../../Assets/dummy/dummy1.jpg"
 import img3 from "../../Assets/dummy/dummy2.jpg"
+import img4 from "../../Assets/Download-images/I-n.jpeg"
+import img5 from "../..//Assets/Download-images/d-1.png"
+import img6 from "../..//Assets/Download-images/d-2.png"
+import img7 from "../..//Assets/Download-images/d-3.png"
+import img8 from "../..//Assets/Download-images/d-4.png"
+import img9 from "../..//Assets/Download-images/d-5.jpeg"
+
 
 const Home = () => {
   return (
     <>
-    <div className="caroo">
-      <div className="carousel-section">
+      <div className="caroo">
+        <div className="carousel-section">
           <div className="carousel slide" id='crs'>
 
             <ol className='carousel-indicators'>
@@ -19,7 +26,7 @@ const Home = () => {
 
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={img1} alt="" />
+                <img src={img4} alt="" />
               </div>
               <div className="carousel-item">
                 <img src={img2} alt="" />
@@ -34,8 +41,8 @@ const Home = () => {
             <a href="#crs" className='carousel-control-next'><span data-target='#crs' data-slide='next' className='carousel-control-next-icon'></span></a>
           </div>
         </div>
-    </div>
-      
+      </div>
+
 
       {/* ABOUT-US */}
       <div className="about-section m-5">
@@ -65,22 +72,22 @@ const Home = () => {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="card">
-                      <img src={img1} alt="" />
+                      <img src={img2} alt="" />
                       <div className="card-body">
-
                         <h1>Hello</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum itaque! Dolore maiores ut blanditiis! At quae incidunt quia. Nesciunt reiciendis molestiae accusantium ipsa expedita libero recusandae, fugiat explicabo officiis.</p>
+                        <p>Our Chairman<br />
+                          Dr.K.Ramakrishnan recieving Center of Excellence Award for KRCT from T. Mano Thangaraj Honourable Minister of Information Technology and Digital Services, Govt. of Tamilnadu.</p>
                         <button className='btn btn-danger'>Button</button>
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="card">
-                      <img src={img1} alt="" />
+                      <img src={img4} alt="" />
                       <div className="card-body">
-
                         <h1>Hello</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum itaque! Dolore maiores ut blanditiis! At quae incidunt quia. Nesciunt reiciendis molestiae accusantium ipsa expedita libero recusandae, fugiat explicabo officiis.</p>
+                        <p>Our Chairman<br />
+                          Dr.K.Ramakrishnan recieving Center of Excellence Award for KRCT from T. Mano Thangaraj Honourable Minister of Information Technology and Digital Services, Govt. of Tamilnadu.</p>
                         <button className='btn btn-danger'>Button</button>
                       </div>
                     </div>
@@ -89,80 +96,88 @@ const Home = () => {
               </div>
 
 
-              <div className="col-lg-3">
+              <div className="col-lg-3 News-feed">
                 <marquee behaviour="infinite" direction="up" id="myMarq">
-
+                  {/* --------------------------------------------------------------------------------------------------------------- */}
                   <div className="row my-3">
-                    <div className="col-3 bg-primary">
+                    <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
-                    <div className="col-9">
-                      <p></p>
+                    <div className="col-9 news-content">
+                      <li onMouseEnter="stop">NPTEL AWARNESS E-COMMERCE WORKSHOP 2022</li>
+                      <li>Time: 10.00AM</li>
+                      <li>link:https://www.terv.pro/login</li>
+                    </div>
+                  </div>
+                  {/* --------------------------------------------------------------------------------------------------------------- */}
+                  <div className="row my-3">
+                    <div className="col-3 news-box">
+                      <p>Nov 24</p>
+                    </div>
+                    <div className="col-9 news-content">
+                      <li>NPTEL AWARNESS E-COMMERCE WORKSHOP 2022</li>
+                      <li>Time: 10.00AM</li>
+                      <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
                   <div className="row my-3">
-                    <div className="col-3 bg-primary">
+                    <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
-                    <div className="col-9">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum itaque!</p>
+                    <div className="col-9 news-content">
+                      <li>NPTEL AWARNESS E-COMMERCE WORKSHOP 2022</li>
+                      <li>Time: 10.00AM</li>
+                      <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
                   <div className="row my-3">
-                    <div className="col-3 bg-primary">
+                    <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
-                    <div className="col-9">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum itaque!</p>
+                    <div className="col-9 news-content">
+                      <li>NPTEL AWARNESS E-COMMERCE WORKSHOP 2022</li>
+                      <li>Time: 10.00AM</li>
+                      <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
                   <div className="row my-3">
-                    <div className="col-3 bg-primary">
+                    <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
-                    <div className="col-9">
-                      <p></p>
+                    <div className="col-9 news-content">
+                      <li>NPTEL AWARNESS E-COMMERCE WORKSHOP 2022</li>
+                      <li>Time: 10.00AM</li>
+                      <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
                   <div className="row my-3">
-                    <div className="col-3 bg-primary">
+                    <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
-                    <div className="col-9">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum itaque!</p>
+                    <div className="col-9 news-content">
+                      <li>NPTEL AWARNESS E-COMMERCE WORKSHOP 2022</li>
+                      <li>Time: 10.00AM</li>
+                      <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
                   <div className="row my-3">
-                    <div className="col-3 bg-primary">
+                    <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
-                    <div className="col-9">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum itaque!</p>
-                    </div>
-                  </div>
-
-                  <div className="row my-3">
-                    <div className="col-3 bg-primary">
-                      <p>Nov 24</p>
-                    </div>
-                    <div className="col-9">
-                      <p></p>
+                    <div className="col-9 news-content">
+                      <li>NPTEL AWARNESS E-COMMERCE WORKSHOP 2022</li>
+                      <li>Time: 10.00AM</li>
+                      <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
                   <div className="row my-3">
-                    <div className="col-3 bg-primary">
+                    <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
-                    <div className="col-9">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum itaque!</p>
-                    </div>
-                  </div>
-                  <div className="row my-3">
-                    <div className="col-3 bg-primary">
-                      <p>Nov 24</p>
-                    </div>
-                    <div className="col-9">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rerum itaque!</p>
+                    <div className="col-9 news-content">
+                      <li>NPTEL AWARNESS E-COMMERCE WORKSHOP 2022</li>
+                      <li>Time: 10.00AM</li>
+                      <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
                 </marquee>
@@ -179,7 +194,7 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-4 p-4 myCard">
               <div className="card">
-                <img src={img1} class="card-img-top" alt="..." />
+                <img src={img5} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">Card title</h5>
@@ -191,7 +206,7 @@ const Home = () => {
             </div>
             <div className="col-lg-4 p-4 myCard">
               <div className="card">
-                <img src={img1} class="card-img-top" alt="..." />
+                <img src={img6} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">Card title</h5>
@@ -203,7 +218,7 @@ const Home = () => {
             </div>
             <div className="col-lg-4 p-4 myCard">
               <div className="card">
-                <img src={img1} class="card-img-top" alt="..." />
+                <img src={img7} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">Card title</h5>
@@ -215,7 +230,7 @@ const Home = () => {
             </div>
             <div className="col-lg-4 p-4 myCard">
               <div className="card">
-                <img src={img1} class="card-img-top" alt="..." />
+                <img src={img8} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">Card title</h5>
@@ -227,7 +242,7 @@ const Home = () => {
             </div>
             <div className="col-lg-4 p-4 myCard">
               <div className="card">
-                <img src={img1} class="card-img-top" alt="..." />
+                <img src={img9} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">Card title</h5>
@@ -239,7 +254,7 @@ const Home = () => {
             </div>
             <div className="col-lg-4 p-4 myCard">
               <div className="card">
-                <img src={img1} class="card-img-top" alt="..." />
+                <img src={img5} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">Card title</h5>

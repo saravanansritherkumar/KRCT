@@ -27,24 +27,22 @@ const Header = () => {
 
   })
 
-  
-
   return (
     <>
       <div className="header">
         <div className="header-main">
-          <img src={img1} alt="" id='img1'/>
+          <img src={img1} alt="" id='im1'/>
         </div>
 
         
           <div className="header-side">
-             <img src={img2} alt=""  id='img2'/>
-             <img src={img3} alt=""  id='img3'/>
-             <img src={img4} alt=""  id='img4'/>
-             <img src={img5} alt=""  id='img5'/>
-             <img src={img6} alt=""  id='img6'/>
-             <img src={img7} alt=""  id='img7'/>
-             <img src={img8} alt=""  id='img8'/>
+             <img src={img2} alt=""  id='im2'/>
+             <img src={img3} alt=""  id='im3'/>
+             <img src={img4} alt=""  id='im4'/>
+             <img src={img5} alt=""  id='im5'/>
+             <img src={img6} alt=""  id='im6'/>
+             <img src={img7} alt=""  id='im7'/>
+             <img src={img8} alt=""  id='im8'/>
           </div> 
 
 

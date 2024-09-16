@@ -10,7 +10,7 @@
 {
     margin-top: 20px;
 }
-.header-main #img1
+.header-main #im1
 {
     margin-top: 1px;
     width: 400px;
@@ -21,7 +21,7 @@
     margin-top: 7px;
     margin-left: 20px;
 }
-.header-side #img2,#img3,#img4,#img5,#img6,#img7,#img8
+.header-side #im2,#im3,#im4,#im5,#im6,#im7,#im8
 {
     margin-top: 20px;
     width: 50px;
@@ -54,11 +54,11 @@
 
 @media screen and (max-width:1400px) 
 {
-   .header-main #img1
+   .header-main #im1
     {
         width: 400px;
     } 
-    .header-side #img2,#img3,#img4,#img5,#img6,#img7,#img8
+    .header-side #im2,#im3,#im4,#im5,#im6,#im7,#im8
     {
         width: 60px;
         height: 60px;
@@ -73,12 +73,12 @@
     {
         margin-bottom: 20px;
     }
-     .header-main #img1
+     .header-main #im1
     {
         width: 400px;
         height: 120px;
     }
-    .header-side #img2,#img3,#img4,#img5,#img6,#img7,#img8
+    .header-side #im2,#im3,#im4,#im5,#im6,#im7,#im8
     {
         display: none;
     }
@@ -103,7 +103,7 @@
 {
     
     
-    .header-main #img1
+    .header-main #im1
     {
         width: 250px;
         height: 80px;
