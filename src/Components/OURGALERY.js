@@ -11,33 +11,32 @@ import '../Components/OURGALLERY.css'
 
 const OURGALERY = () => {
   return (
-     <>
-    <h4 className='galleryheading'>Our Gallery</h4>
-
-<div className='mainscroll ' >
-
+    <>
+      <h4 className='galleryheading'>Our Gallery</h4>
+      <div className='container-fluid' id='gallery'>
 
 
-  <div id='mainscroll2'>
+        <div className='container'>
 
-<div   id='scroll' > 
+          <div id='mainscroll'>
 
-
-    
-   <img src={img1} id='im' height={200} width={220}></img>
-  <img src={img2} id='im' height={200} width={300} ></img>
-  <img src={img3} id='im' height={200} width={300} ></img>
-  <img src={img4} id='im' height={200} width={400} ></img>
-  <img src={img5} id='im' height={200} width={400} ></img>
-  <img src={img6} id='im' height={200} width={400} ></img>
-  </div>
+            <div className='scroll'>
 
 
-  </div>
+
+              <img src={img1} id='im1' height={200} width={220}></img>
+              <img src={img2} id='im' height={200} width={300} ></img>
+              <img src={img3} id='im' height={200} width={300} ></img>
+              <img src={img4} id='im' height={200} width={200} ></img>
+              <img src={img5} id='im' height={200} width={400} ></img>
+              <img src={img6} id='im' height={200} width={400} ></img>
 
 
-        
-    </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </>
 
   )

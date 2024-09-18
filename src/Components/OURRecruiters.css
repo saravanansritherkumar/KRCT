@@ -5,15 +5,46 @@
     text-align: center;
     color: rgb(0, 119, 255);
     font-family: poppins;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
 }
-@media screen and (max-width:768px) {
+.recruitershead{
+    background-image: url('../Assets/images/bg.jpg');
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+#bussinessicon{
+    color: black;
+    padding-left: 30px;
+    border: solid white;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+/* @media screen and (max-width:425px) {
 
     #recruitersheading{
         text-align: center;
         color: rgb(0, 119, 255);
         font-family: poppins;
         text-align: start;
-        padding-left: 20px;
     }
+        .recruitershead{
+            background-image: url('../Assets/images/bg.jpg');
+
+        }
+        #bussinessicon{
+            color: black;
+            padding-left: 30px;
+            border: solid white;
+            box-shadow: 1px 1px 1px 1px;
+            padding: 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+        }
         
-}
+} */

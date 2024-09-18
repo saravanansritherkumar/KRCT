@@ -6,15 +6,11 @@
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.header-main
-{
-    margin-top: 20px;
-}
+
 .header-main #im1
 {
-    margin-top: 1px;
-    width: 400px;
-    height: 120px;
+    width: 450px;
+    height: 150px;
 }
 .header-side
 {
@@ -24,8 +20,8 @@
 .header-side #im2,#im3,#im4,#im5,#im6,#im7,#im8
 {
     margin-top: 20px;
-    width: 50px;
-    height: 80px;
+    /* width: 50px;  */
+    height: 80px; 
     margin-left: 15px;
 }
 .side-header
@@ -35,16 +31,18 @@
 .side-menu
 {
     display: none;
-    background-color: #3895d3;
     margin-top: 30px;
-    width: 100%
+    width: 100%;
+    font-weight: 400;
+    background-color: #3895d3;
+    color: white;
 }
 .side-menu li
 {
     list-style: none;
     padding: 15px;
     margin-top: 5px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px white solid;
 }
 .drop-down-1
 {
@@ -56,7 +54,7 @@
 {
    .header-main #im1
     {
-        width: 400px;
+        width: 370px;
     } 
     .header-side #im2,#im3,#im4,#im5,#im6,#im7,#im8
     {
@@ -76,7 +74,7 @@
      .header-main #im1
     {
         width: 400px;
-        height: 120px;
+        height: 150px;
     }
     .header-side #im2,#im3,#im4,#im5,#im6,#im7,#im8
     {
@@ -99,14 +97,14 @@
         width: 100%;
     }
 }
-@media screen and (max-width:400px) 
+@media screen and (max-width:500px) 
 {
     
     
     .header-main #im1
     {
-        width: 250px;
-        height: 80px;
+        width: 230px;
+        height: 150px;
     }
     .side-header
     {
@@ -131,4 +129,3 @@
 }
 
 }
-

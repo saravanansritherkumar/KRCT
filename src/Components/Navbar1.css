@@ -18,21 +18,29 @@
     letter-spacing: 1px;
     margin-bottom: 8px;
 }
-.dropdown-menu
+.navbar-main .dropdown-menu
 {
-    margin-top: 60px;
-    background-color: #3895d3;
-    border: none;
+    margin-top: 40px;
+    background-color:white;
+    border-radius: 15px;
+    border-bottom: #3895d3 7px solid;
+
 }
 
-.dropdown-menu li
+.navbar-main .dropdown-menu li
 {
     width: 100%;
     padding-left: 70px;
     margin-left: 0px;
     padding-right: 100px;
+    color: #3895d3;
+    font-weight: 500;
 }
 
+.navbar-main .dropdown-menu .dropdown-item:hover
+{
+    background-color: rgb(182, 181, 181);
+}
 .dropdown-menu li:hover
 {
     background-color: aliceblue;
@@ -44,4 +52,13 @@
     {
         display: none;
     }    
+}
+.dropdown:hover .dropdown-menu
+{
+    display:block;
+}
+
+.dropdown{
+    cursor:pointer;
+
 }

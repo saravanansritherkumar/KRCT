@@ -60,14 +60,14 @@ const Header = () => {
           <li>Academics</li>
           <li id='dept-dropdown'>department <span><i class="fa-solid fa-caret-down"></i></span></li>
           <div className="drop-down-1">
-            <li>cse</li>
-            <li>cse</li>
-            <li>cse</li>
-            <li>cse</li>
-            <li>cse</li>
-            <li>cse</li>
-            <li>cse</li>
-            <li>cse</li>
+          <li className='dropdown-item'>CSE</li>
+            <li>AIDS</li>
+            <li>AIML</li>
+            <li>EEE</li>
+            <li>ECE</li>
+            <li>MECH</li>
+            <li>IT</li>
+            <li>CIVIL</li>
           </div>
           <li>Placement</li>
           <li>Campus life</li>

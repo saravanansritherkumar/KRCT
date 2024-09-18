@@ -45,12 +45,13 @@ const Home = () => {
 
 
       {/* ABOUT-US */}
-      <div className="about-section m-5">
+      <div className="about-section m-lg-5">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6" id='about-us'>
+            <div className="col-lg-6 p-2" id='about-us'>
               <h1>About Us</h1>
-              <div className='border-bottom'><span className='hh'></span><span className='hh1'></span></div>
+              <div className='border-botom'><span className='hh'></span><span className='hh1'></span></div>
+              <div cla></div>
               <p id='about-para'>KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p>
             </div>
             <div className="col-lg-6 p-3">
@@ -64,20 +65,19 @@ const Home = () => {
 
       {/* LATEST-NEWS */}
       <center>
-
         <div className="text">
           <div className="container">
             <div className="row">
-              <div className="col-9">
+              <div className="col-lg-9">
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="card">
                       <img src={img2} alt="" />
                       <div className="card-body">
                         <h1>Hello</h1>
-                        <p>Our Chairman<br />
+                        <p >Our Chairman<br />
                           Dr.K.Ramakrishnan recieving Center of Excellence Award for KRCT from T. Mano Thangaraj Honourable Minister of Information Technology and Digital Services, Govt. of Tamilnadu.</p>
-                        <button className='btn btn-danger'>Button</button>
+                        <button className='btn btn-danger' >Button</button>
                       </div>
                     </div>
                   </div>
@@ -99,7 +99,7 @@ const Home = () => {
               <div className="col-lg-3 News-feed">
                 <marquee behaviour="infinite" direction="up" id="myMarq">
                   {/* --------------------------------------------------------------------------------------------------------------- */}
-                  <div className="row my-3">
+                  <div className="row my-3 p-3">
                     <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
@@ -110,7 +110,7 @@ const Home = () => {
                     </div>
                   </div>
                   {/* --------------------------------------------------------------------------------------------------------------- */}
-                  <div className="row my-3">
+                  <div className="row my-3 p-3">
                     <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
@@ -120,7 +120,7 @@ const Home = () => {
                       <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
-                  <div className="row my-3">
+                  <div className="row my-3 p-3">
                     <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
@@ -130,7 +130,7 @@ const Home = () => {
                       <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
-                  <div className="row my-3">
+                  <div className="row my-3 p-3">
                     <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
@@ -140,7 +140,7 @@ const Home = () => {
                       <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
-                  <div className="row my-3">
+                  <div className="row my-3 p-3">
                     <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
@@ -150,7 +150,7 @@ const Home = () => {
                       <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
-                  <div className="row my-3">
+                  <div className="row my-3 p-3">
                     <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
@@ -160,7 +160,7 @@ const Home = () => {
                       <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
-                  <div className="row my-3">
+                  <div className="row my-3 p-3">
                     <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
@@ -170,7 +170,7 @@ const Home = () => {
                       <li>link:https://www.terv.pro/login</li>
                     </div>
                   </div>
-                  <div className="row my-3">
+                  <div className="row my-3 p-3">
                     <div className="col-3 news-box">
                       <p>Nov 24</p>
                     </div>
@@ -190,7 +190,8 @@ const Home = () => {
       <div className="why-krct">
         <div className="container">
           <h1>WHY KRCT</h1>
-          <div className='border-bottom'><span className='hh'></span><span className='hh1'></span></div>
+          <div className='border-botom'><span className='hh'></span><span className='hh1'></span></div>
+
           <div className="row">
             <div className="col-lg-4 p-4 myCard">
               <div className="card">
