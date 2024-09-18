@@ -14,112 +14,135 @@ const Topplacemnet = () => {
 
 <div className='topplacement'>
 
-<h2 id='headingtopplacement'>Top placement</h2>
+<h4 id='topmain'> Topplacement</h4>
 
 
-        <div className='container-fluid'>
-            <div className='container'>
-<div className='row'>
-            <div className='col-lg-2 col-md-2 '>
-                <div id='card1'>
+
+    <div className='container'>
+
+        <div className='row'>
 
 
-                    <img src={img2} height={100} width={151} id='placeim1'/>
 
-                    <h4 id='name'>PRAVEEN KUMAR</h4>
+            <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3' id='image2'>
+                <div className='card' >
+                    <img src={img2} width={130} />
+                    <div className='card-body'>
+                        <div className='card-title'>
 
-                    <p id='department'>CSE-2018</p>
+                            <h4 id='topname' className='pt-3'>PRAVEEN KUMAR</h4>
 
-                    <img src={img1} height={100} width={100} id='wipro'/>
+                            <p id='topdepartment'>CSE-2018</p>
+
+
+                            <img src={img1} id='image1' width={100}/>
+
 
                 </div>
-            </div>
+                </div>
+                </div>
+                </div>
 
-            <div className='col-lg-2 px-3'>
-                <div id='card1'>
 
-                    <img src={img3} height={100} width={153} />
 
-                    <h4 id='name'>PRAJULA R</h4>
+                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3' >
+                <div className='card'>
+                    <img src={img3} height={110} />
+                    <div className='card-body'>
+                        <div className='card-title'>
 
-                    <p id='department'>ECE-2018</p>
 
-                    <img src={img1} height={100} width={100} id='wipro'/>
+<h4 id='topname' className='pt-2'>PRAJULA R</h4>
+
+<p id='topdepartment'>ECE-2018</p>
+
+                        <img src={img1} id='image1' width={100}/>
+
 
                 </div>
-            </div>
+                </div>
+                </div>
+                </div>
 
 
-            <div className='col-lg-2 px-3'>
-                <div id='card1'>
 
-                    <img src={img4} height={100} width={150} />
 
-                    <h4 id='name1'>MONIKA DHARANI G</h4>
+                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3'>
+                <div className='card'>
+                    <img src={img6} height={110}  />
+                    <div className='card-body'>
+                        <div className='card-title'>
 
-                    <p id='department'>ECE-2018</p>
+                            <h4 id='topname' className='pt-2'>MONIKA DHARANI G</h4>
+                            <p id='topdepartment'>ECE-2018</p>
 
-                    <img src={img1} height={100} width={100} id='wipro'/>
+
+                        <img src={img1} id='image2' width={100} className='pl-2'/>
+
 
                 </div>
-            </div>
+                </div>
+                </div>
+                </div>
 
 
+                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3'>
+                <div className='card'>
+                    <img src={img5}  height={100}/>
+                    <div className='card-body'>
+                        <div className='card-title'>
 
+<h4 id='topname' className='pt-3'>NIRANJANA SR</h4>
+<p id='topdepartment'>CSE-2018</p>
 
-            <div className='col-lg-2 px-3'>
-                <div id='card1'>
+                        <img src={img1} id='image1' width={100}/>
 
-                    <img src={img3} height={100} width={153} />
-
-                    <h4 id='name'>NIRANJANA SR</h4>
-
-                    <p id='department'>CSE-2018</p>
-
-                    <img src={img1} height={100} width={100} id='wipro'/>
 
                 </div>
-            </div>
+                </div>
+                </div>
+                </div>
 
 
 
 
-            <div className='col-lg-2 px-3'>
-                <div id='card1'>
+                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3' id='image2'>
+                <div className='card'>
+                    <img src={img2} width={130} />
+                    <div className='card-body'>
+                        <div className='card-title'>
+<h4 id='topname' className='pt-3'>UMA GOWRI</h4>
+<p id='topdepartment'>ECE-2018</p>
 
-                    <img src={img3} height={100} width={153} />
+                        <img src={img1} id='image1' width={100}/>
 
-                    <h4 id='name'>UMA GOWRI</h4>
-
-                    <p id='department'>ECE-2018</p>
-
-                    <img src={img1} height={100} width={100} id='wipro'/>
 
                 </div>
-            </div>
+                </div>
+                </div>
+                </div>
 
+                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3' id='image2'>
+                <div className='card'>
+                    <img src={img3} height={110} />
+                    <div className='card-body'>
+                        <div className='card-title'>
 
-            <div className='col-lg-2 '>
-                <div id='card1'>
+<h4 id='topname' className='pt-2'>NIRANJANA SR</h4>
+<p id='topdepartment'>CSE-2018</p>
+                        <img src={img1} id='image1' width={100}/>
 
-                    <img src={img3} height={100} width={153} />
-
-                    <h4 id='name'>UMA GOWRI</h4>
-
-                    <p id='department'>ECE-2018</p>
-
-                    <img src={img1} height={100} width={100} id='wipro'/>
 
                 </div>
-            </div>
+                </div>
+                </div>
+                </div>
 
 
+            
+        </div>
+    </div>
 
-
-            </div>
-            </div>
-
-            </div>
         </div>
         </>
     )

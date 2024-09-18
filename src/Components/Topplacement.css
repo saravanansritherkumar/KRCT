@@ -1,83 +1,30 @@
-#card1{
-    border: solid black 1px;
-    height: 300px;
-    width: 153px;
-    background-color: white;
-    border-radius: 10px;
-    padding-top: px;
+#image2{
+    overflow: hidden;
+}
 
-}
-#name{
-    margin-top: 30px;
+#topname{
+    font-size: 13px;
     text-align: center;
-    font-size: 18px;
 }
-#department{
-    margin-left: 40px;
+#topdepartment{
+    font-size: 12px;
+    text-align: center;
 }
-#wipro{
-    margin-left: 30px;
-    padding-bottom: 0px;
-}
-#name1{
-    font-size: 15px;
-    margin-top: 30px;
-    padding-left: 5px;
+#image1{
+    justify-content: center;
 }
 .topplacement{
-    background-color: #3895d3;
+    background-color: rgb(0, 123, 255);
+    padding-top: 30px;
     padding-bottom: 50px;
-    padding-top: 20px;
-    margin-top: 1px;
-    
-    
 }
-#headingtopplacement{
+#topmain{
+
     color: yellow;
-    font-family: poppins;
-    padding-bottom: 20px;
     text-align: center;
-}
+    padding-bottom: 20px;
+    font-family: poppins;
+    font-size: 25px;
 
-@media screen and (max-width:768px) {
 
-    #card1{
-        border: solid black 1px;
-        height: 300px;
-        width: 155px;
-        background-color: white;
-        border-radius: 10px;
-        padding-top: 1px;
-        margin-top: 10px;
-        margin-left: 50px;
-        
-    
-    }
-    #name{
-        margin-top: 30px;
-        text-align: center;
-    }
-    #department{
-        margin-left: 50px;
-    }
-    #wipro{
-        margin-left: 30px;
-    }
-    #name1{
-        font-size: 18px;
-        margin-top: 30px;
-        padding-left: 5px;
-
-    }
-    .topplacement{
-        background-color: rgb(0, 128, 255);
-        padding-left:0px;
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-    #headingtopplacement{
-        color: yellow;
-        font-family: poppins;
-        padding-bottom: 20px;
-    }    
 }

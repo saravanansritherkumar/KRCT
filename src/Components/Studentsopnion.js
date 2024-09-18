@@ -4,7 +4,6 @@ import img2 from '../Assets/images/person2.jpeg'
 
 import img3 from '../Assets/images/person4.jpeg'
 
-// import img4 from '../Assets/images/imageback.jpeg'
 
 
 import '../Components/Studentsopnion.css'
@@ -27,46 +26,71 @@ const Studentsopnion = () => {
 
               <div className='container'>
 
+                <div className='overallbox'>
 
+                  <div className='row'>
 
-                <div className='row students'>
+                    <div className='col-lg-4 col-md-12 d-flex justify-content-center'>
 
-                  <div className='col-lg-4'>
+                      <div className='box1'>
+                        <img src={img1} id='img1' />
 
-                    <div className='box1'>
-                      <img src={img1} id='img1' />
+                        <p id='para1'>Our College is the best place to equip and widen out knowledge provides numerous platforms to showacse our talents and mold us in the right path
 
-                      <p id='para1'>Our College is the best place to equip and widen out knowledge provides numerous platforms to showacse our talents and mold us in the right path
+                        </p>
+                        <h4 id='heading1'>SHABAHARISH SASINDHRAN</h4>
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
 
-                      </p>
-                      <h4 id='heading1'>SHABAHARISH SASINDHRAN</h4>
+                      </div>
                     </div>
-                  </div>
 
-                  <div className='col-lg-4'>
-                    <div className='box1'>
+                    <div className='col-lg-4 col-md-12 d-flex justify-content-center'>
+                      <div className='box1'>
 
-                      <img src={img2} id='img1' />
+                        <img src={img2} id='img1' />
 
-                      <p id='para1'>BEST Bridge to explore the great levels of live - proud to be a KRCTian</p>
+                        <p id='para1'>BEST Bridge to explore the great levels of live - proud to be a KRCTian</p>
 
-                      <h4 id='heading2'>THARANI</h4>
-                      <p></p>
+                        <h4 id='heading2'>THARANI</h4>
+
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
+
+                      </div>
                     </div>
-                  </div>
 
-                  <div className='col-lg-4'>
-                    <div className='box1'>
+                    <div className='col-lg-4 col-md-12 d-flex justify-content-center'>
+                      <div className='box1'>
 
-                      <img src={img3} id='img1' />
+                        <img src={img3} id='img1' />
 
-                      <p id='para1'>It was pleasure to be an KRCT's Product</p>
+                        <p id='para1'>It was pleasure to be an KRCT's Product</p>
 
-                      <h4 id='heading3'>HARIHARAN</h4>
+                        <h4 id='heading3'>HARIHARAN</h4>
+
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
+
+                      </div>
                     </div>
+
                   </div>
-
-
 
                 </div>
               </div>
@@ -78,45 +102,69 @@ const Studentsopnion = () => {
               <div className='container'>
 
 
+                <div className='overallbox'>
 
-                <div className='row'>
+                  <div className='row'>
 
-                  <div className='col-lg-4'>
+                    <div className='col-lg-4 col-md-12 d-flex justify-content-center'>
 
-                    <div className='box1'>
-                      <img src={img1} id='img1' />
+                      <div className='box1'>
+                        <img src={img1} id='img1' />
 
-                      <p id='para1'>Our College is the best place to equip and widen out knowledge provides numerous platforms to showacse our talents and mold us in the right path
+                        <p id='para1'>Our College is the best place to equip and widen out knowledge provides numerous platforms to showacse our talents and mold us in the right path
 
-                      </p>
-                      <h4 id='heading1'>SHABAHARISH SASINDHRAN</h4>
+                        </p>
+                        <h4 id='heading1'>SHABAHARISH SASINDHRAN</h4>
+
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
+
+                      </div>
                     </div>
-                  </div>
 
-                  <div className='col-lg-4'>
-                    <div className='box1'>
+                    <div className='col-lg-4 col-md-12 d-flex justify-content-center'>
+                      <div className='box1'>
 
-                      <img src={img2} id='img1' />
+                        <img src={img2} id='img1' />
 
-                      <p id='para1'>BEST Bridge to explore the great levels of live - proud to be a KRCTian</p>
+                        <p id='para1'>BEST Bridge to explore the great levels of live - proud to be a KRCTian</p>
 
-                      <h4 id='heading2'>THARANI</h4>
-                      <p></p>
+                        <h4 id='heading2'>THARANI</h4>
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
+                      </div>
                     </div>
-                  </div>
 
-                  <div className='col-lg-4'>
-                    <div className='box1'>
+                    <div className='col-lg-4 col-md-12 d-flex justify-content-center'>
+                      <div className='box1'>
 
-                      <img src={img3} id='img1' />
+                        <img src={img3} id='img1' />
 
-                      <p id='para1'>It was pleasure to be an KRCT's Product</p>
+                        <p id='para1'>It was pleasure to be an KRCT's Product</p>
 
-                      <h4 id='heading3'>HARIHARAN</h4>
+                        <h4 id='heading3'>HARIHARAN</h4>
+
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
+                      </div>
                     </div>
+
                   </div>
-
-
 
                 </div>
               </div>
@@ -127,45 +175,72 @@ const Studentsopnion = () => {
 
               <div className='container'>
 
+                <div className='overallbox'>
 
+                  <div className='row'>
 
-                <div className='row'>
+                    <div className='col-lg-4 col-md-12 d-flex justify-content-center '>
 
-                  <div className='col-lg-4'>
+                      <div className='box1'>
+                        <img src={img1} id='img1' />
 
-                    <div className='box1'>
-                      <img src={img1} id='img1' />
+                        <p id='para1'>Our College is the best place to equip and widen out knowledge provides numerous platforms to showacse our talents and mold us in the right path
 
-                      <p id='para1'>Our College is the best place to equip and widen out knowledge provides numerous platforms to showacse our talents and mold us in the right path
+                        </p>
+                        <h4 id='heading1'>SHABAHARISH SASINDHRAN</h4>
 
-                      </p>
-                      <h4 id='heading1'>SHABAHARISH SASINDHRAN</h4>
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div className='col-lg-4  col-md-12 d-flex justify-content-center'>
+                      <div className='box1'>
+
+                        <img src={img2} id='img1' />
+
+                        <p id='para1'>BEST Bridge to explore the great levels of live - proud to be a KRCTian</p>
+
+                        <h4 id='heading2'>THARANI</h4>
+
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
+
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <div className='col-lg-4 col-md-12 d-flex justify-content-center '>
+                      <div className='box1'>
+
+                        <img src={img3} id='img1' />
+
+                        <p id='para1'>It was pleasure to be an KRCT's Product</p>
+
+                        <h4 id='heading3'>HARIHARAN</h4>
+
+                        <div className="star">
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                          <i class="fa-solid fa-star" id='opinionicon'></i>
+                        </div>
+
+                      </div>
                     </div>
                   </div>
-
-                  <div className='col-lg-4'>
-                    <div className='box1'>
-
-                      <img src={img2} id='img1' />
-
-                      <p id='para1'>BEST Bridge to explore the great levels of live - proud to be a KRCTian</p>
-
-                      <h4 id='heading2'>THARANI</h4>
-                      <p></p>
-                    </div>
-                  </div>
-
-                  <div className='col-lg-4'>
-                    <div className='box1'>
-
-                      <img src={img3} id='img1' />
-
-                      <p id='para1'>It was pleasure to be an KRCT's Product</p>
-
-                      <h4 id='heading3'>HARIHARAN</h4>
-                    </div>
-                  </div>
-
 
 
                 </div>
