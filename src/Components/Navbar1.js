@@ -9,7 +9,7 @@ const Navbar1 = () => {
        <div className="navbar-main">
           <li>Home</li>
           <li>About us</li>
-          <li>Afministration</li>
+          <li>Administration</li>
           <li>Academics</li>
           <li>Placement</li>
           <li>Campus life</li>

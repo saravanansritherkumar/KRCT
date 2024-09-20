@@ -12,16 +12,19 @@ import img10 from '../Assets/images/Recruiters/virtusa.png'
 import img11 from '../Assets/images/Recruiters/Wipro 2.png'
 import img12 from '../Assets/images/Recruiters/zoho.png'
 import '../Components/OURRecruiters.css'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 const OURRecruiters = () => {
   return (
     <div>
 
-      <div className='overallrecruiter'>
+      <div className='overallrecruiter' data-aos="fade-up"
+     data-aos-duration="5000">
 
-        <h4 id='recruitersheading' >Our recruiters</h4>
+        <h4 id='recruitersheading' >Our Recruiters</h4>
 
         <div className='recruitershead'>
           <marquee scrollamount="20">

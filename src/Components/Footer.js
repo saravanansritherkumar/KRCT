@@ -1,5 +1,8 @@
 import React from 'react'
 import '../Components/Footer.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Footer = () => {
   return (
@@ -15,7 +18,9 @@ const Footer = () => {
             <div className='row'>
               <div className='col-lg-3 mt-1 col-md-6'>
                 <h4 className='footerheading1'>Quick Links</h4>
-                <div >
+                <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
              <p className='footercontent'><i className='fa fa-chevron-right mr-2'></i> Teaching Learning</p> 
                  <p className='footercontent'><i className='fa fa-chevron-right mr-2'></i>ERP Crystal HR</p>
                  <p className='footercontent'><i className='fa fa-chevron-right mr-2'></i>Faculty Development <br></br><span className='ml-3'>Activity Form</span></p>
@@ -26,7 +31,9 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className='col-lg-3 mt-5 col-md-6'>
+              <div className='col-lg-3 mt-5 col-md-6' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 
                 <p className='footercontent'><i className='fa fa-chevron-right mr-2'></i>Web Mail</p>
                 <p className='footercontent'><i className='fa fa-chevron-right mr-2'></i>Mandatory Disclosure</p>
@@ -39,7 +46,9 @@ const Footer = () => {
               </div>
 
 
-              <div className='col-lg-3 mt-5 col-md-6'>
+              <div className='col-lg-3 mt-5 col-md-6'data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 
 
                 <p className='footercontent'><i className='fa fa-chevron-right mr-2'></i>IQAC CELL</p>
@@ -56,7 +65,9 @@ const Footer = () => {
               </div>
 
 
-              <div className='col-lg-3 mt-3 col-md-6'>
+              <div className='col-lg-3 mt-3 col-md-6' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                 <h4 className='footerheading2'>Contact Info</h4>
 
                 <div className='footerconect1 '>

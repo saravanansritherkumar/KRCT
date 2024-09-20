@@ -6,7 +6,7 @@ import img3 from '../Assets/images/person2.jpeg'
 import img4 from '../Assets/images/person3.jpeg'
 import img5 from '../Assets/images/person4.jpeg'
 import img6 from '../Assets/images/person5.jpeg'
-
+import img7 from '../Assets/images/bussinesscard.png'
 
 const Topplacemnet = () => {
     return (
@@ -23,120 +23,103 @@ const Topplacemnet = () => {
         <div className='row'>
 
 
+<div className='col-lg-2 col-md-6 d-flex justify-content-center'>
+    <div className='card ' id='card1'>
+    <div id='border'>
+        <h4 id='topheading1'>PRAVEEN KUMAR</h4>
+        <p id='tophead'>CSE-2018</p>
+            </div>
 
-            <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3' id='image2'>
-                <div className='card' >
-                    <img src={img2} width={130} />
-                    <div className='card-body'>
-                        <div className='card-title'>
+        <img src={img2} id='topimg2' />
 
-                            <h4 id='topname' className='pt-3'>PRAVEEN KUMAR</h4>
+        <img src={img1}   id='topimg1'/>
 
-                            <p id='topdepartment'>CSE-2018</p>
-
-
-                            <img src={img1} id='image1' width={100}/>
-
-
-                </div>
-                </div>
-                </div>
-                </div>
+    </div>
+</div>
 
 
 
-                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3' >
-                <div className='card'>
-                    <img src={img3} height={110} />
-                    <div className='card-body'>
-                        <div className='card-title'>
+<div className='col-lg-2 col-md-6 d-flex justify-content-center'>
+    <div className='card' id='card1'>
+    <div id='border'>
+        <h4 id='topheading1'>PRAVEEN KUMAR</h4>
+        <p id='tophead'>CSE-2018</p>
+            </div>
 
+        <img src={img2} id='topimg2'  />
 
-<h4 id='topname' className='pt-2'>PRAJULA R</h4>
+        <img src={img1}  id='topimg1' />
 
-<p id='topdepartment'>ECE-2018</p>
-
-                        <img src={img1} id='image1' width={100}/>
-
-
-                </div>
-                </div>
-                </div>
-                </div>
+    </div>
+</div>
 
 
 
 
-                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3'>
-                <div className='card'>
-                    <img src={img6} height={110}  />
-                    <div className='card-body'>
-                        <div className='card-title'>
 
-                            <h4 id='topname' className='pt-2'>MONIKA DHARANI G</h4>
-                            <p id='topdepartment'>ECE-2018</p>
+<div className='col-lg-2 col-md-6 d-flex justify-content-center'>
+    <div className='card' id='card1'>
+    <div id='border'>
+        <h4 id='topheading1'>PRAJULA R</h4>
+        <p id='tophead'>CSE-2018</p>
+            </div>
 
+        <img src={img2} id='topimg2'  />
 
-                        <img src={img1} id='image2' width={100} className='pl-2'/>
+        <img src={img1}  id='topimg1' />
 
-
-                </div>
-                </div>
-                </div>
-                </div>
-
-
-                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3'>
-                <div className='card'>
-                    <img src={img5}  height={100}/>
-                    <div className='card-body'>
-                        <div className='card-title'>
-
-<h4 id='topname' className='pt-3'>NIRANJANA SR</h4>
-<p id='topdepartment'>CSE-2018</p>
-
-                        <img src={img1} id='image1' width={100}/>
-
-
-                </div>
-                </div>
-                </div>
-                </div>
+    </div>
+</div>
 
 
 
 
-                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3' id='image2'>
-                <div className='card'>
-                    <img src={img2} width={130} />
-                    <div className='card-body'>
-                        <div className='card-title'>
-<h4 id='topname' className='pt-3'>UMA GOWRI</h4>
-<p id='topdepartment'>ECE-2018</p>
+<div className='col-lg-2 col-md-6 d-flex justify-content-center'>
+    <div className='card' id='card1'>
+    <div id='border'>
+        <h4 id='topheading1'>MONIKA DAHARANI G</h4>
+        <p id='tophead'>CSE-2018</p>
+            </div>
 
-                        <img src={img1} id='image1' width={100}/>
+        <img src={img2} id='topimg2'  />
 
+        <img src={img1}  id='topimg1' />
 
-                </div>
-                </div>
-                </div>
-                </div>
-
-                <div className='col-lg-2 col-md-12 d-flex justify-content-center pb-3' id='image2'>
-                <div className='card'>
-                    <img src={img3} height={110} />
-                    <div className='card-body'>
-                        <div className='card-title'>
-
-<h4 id='topname' className='pt-2'>NIRANJANA SR</h4>
-<p id='topdepartment'>CSE-2018</p>
-                        <img src={img1} id='image1' width={100}/>
+    </div>
+</div>
 
 
-                </div>
-                </div>
-                </div>
-                </div>
+
+
+<div className='col-lg-2 col-md-6 d-flex justify-content-center'>
+    <div className='card' id='card1'>
+    <div id='border'>
+        <h4 id='topheading1'>NIRANJANA SR</h4>
+        <p id='tophead'>CSE-2018</p>
+            </div>
+
+        <img src={img2} id='topimg2'  />
+
+        <img src={img1}  id='topimg1'  />
+
+    </div>
+</div>
+
+
+
+<div className='col-lg-2 col-md-6 d-flex justify-content-center'>
+    <div className='card' id='card1'>
+    <div id='border'>
+        <h4 id='topheading1'>UMA GOWRI</h4>
+        <p id='tophead'>CSE-2018</p>
+            </div>
+
+        <img src={img2} id='topimg2' />
+
+        <img src={img1}  id='topimg1' />
+
+    </div>
+</div>
 
 
             

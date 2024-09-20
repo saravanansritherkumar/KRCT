@@ -1,15 +1,17 @@
 import React from 'react'
 import img1 from "../../Assets/images/Backgate.jpeg"
 import "../Home/Home.css"
-import img2 from "../../Assets/dummy/dummy1.jpg"
-import img3 from "../../Assets/dummy/dummy2.jpg"
+import img2 from "../../Assets/images/Group2.jpg"
+import img3 from "../../Assets/images/groupp1.jpg"
 import img4 from "../../Assets/Download-images/I-n.jpeg"
 import img5 from "../..//Assets/Download-images/d-1.png"
 import img6 from "../..//Assets/Download-images/d-2.png"
 import img7 from "../..//Assets/Download-images/d-3.png"
 import img8 from "../..//Assets/Download-images/d-4.png"
 import img9 from "../..//Assets/Download-images/d-5.jpeg"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Home = () => {
   return (
@@ -52,7 +54,10 @@ const Home = () => {
               <h1>About Us</h1>
               <div className='border-botom'><span className='hh'></span><span className='hh1'></span></div>
               <div cla></div>
-              <p id='about-para'>KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p>
+              <p id='about-para' data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p>
             </div>
             <div className="col-lg-6 p-3">
               <center>
@@ -74,10 +79,9 @@ const Home = () => {
                     <div className="card">
                       <img src={img2} alt="" />
                       <div className="card-body">
-                        <h1>Hello</h1>
                         <p >Our Chairman<br />
                           Dr.K.Ramakrishnan recieving Center of Excellence Award for KRCT from T. Mano Thangaraj Honourable Minister of Information Technology and Digital Services, Govt. of Tamilnadu.</p>
-                        <button className='btn btn-danger' >Button</button>
+                        <button className='btn' >Button</button>
                       </div>
                     </div>
                   </div>
@@ -85,10 +89,9 @@ const Home = () => {
                     <div className="card">
                       <img src={img4} alt="" />
                       <div className="card-body">
-                        <h1>Hello</h1>
                         <p>Our Chairman<br />
                           Dr.K.Ramakrishnan recieving Center of Excellence Award for KRCT from T. Mano Thangaraj Honourable Minister of Information Technology and Digital Services, Govt. of Tamilnadu.</p>
-                        <button className='btn btn-danger'>Button</button>
+                        <button className='btn'>Button</button>
                       </div>
                     </div>
                   </div>
@@ -187,80 +190,86 @@ const Home = () => {
         </div>
       </center>
 
-      <div className="why-krct">
+      <div className="why-krct" >
         <div className="container">
           <h1>WHY KRCT</h1>
           <div className='border-botom'><span className='hh'></span><span className='hh1'></span></div>
 
           <div className="row">
-            <div className="col-lg-4 p-4 myCard">
+            <div className="col-lg-4 p-4 myCard" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom">
               <div className="card">
                 <img src={img5} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">EXPERIENCED FACULTY</h5>
+                    <p class="card-text">Apporpriately Qualified And Experienced Faculty - Current,Contempory And Update - Mentoring,Counselling,Guiding </p>
+                    <a href="#" class="btn">Go somewhere</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 p-4 myCard">
+            <div className="col-lg-4 p-4 myCard" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom">
               <div className="card">
                 <img src={img6} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Placement</h5>
+                    <p class="card-text">The Department of placement envisages to train each learner a successful person.The Training and placement Cell Organizes a number... </p>
+                    <a href="#" class="btn ">Go somewhere</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 p-4 myCard">
+            <div className="col-lg-4 p-4 myCard" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom">
               <div className="card">
                 <img src={img7} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Research</h5>
+                    <p class="card-text">Department of Computer Science and engineering received center for research,awarded by Anna University.</p>
+                    <a href="#" class="btn ">Go somewhere</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 p-4 myCard">
+            <div className="col-lg-4 p-4 myCard" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom">
               <div className="card">
                 <img src={img8} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Central Libray</h5>
+                    <p class="card-text">In Keeping with the vision and mission of the college,the libary services play a vital role in supporting...</p>
+                    <a href="#" class="btn ">Go somewhere</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 p-4 myCard">
+            <div className="col-lg-4 p-4 myCard" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom">
               <div className="card">
                 <img src={img9} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Academic Excellence</h5>
+                    <p class="card-text">Consistent good result and ranks in Anna University Examinations... </p>
+                    <a href="#" class="btn ">Go somewhere</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 p-4 myCard">
+            <div className="col-lg-4 p-4 myCard" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom">
               <div className="card">
                 <img src={img5} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div className="card-content">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">Campus Life</h5>
+                    <p class="card-text">With quality education KRCT has come forward extend a lot of facilities to the students..</p>
+                    <a href="#" class="btn ">Go somewhere</a>
                   </div>
                 </div>
               </div>

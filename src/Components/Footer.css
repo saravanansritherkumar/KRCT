@@ -68,20 +68,21 @@
 .footermap1
 {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
-@media screen and (max-width:1000px) 
+
+@media screen and (max-width:991.5px) 
 {
     .footermap1
     {
         height: 200px;
-        width: 520px;
+        width: 500px;
         margin-bottom: 18px;
         margin-left: 20px;
     }
     
 }
-    
+
 @media screen and (max-width:600px) {
 
     .footerconect1{
