@@ -21,10 +21,10 @@ const OURRecruiters = () => {
   return (
     <div>
 
-      <div className='overallrecruiter' data-aos="fade-up"
-     data-aos-duration="5000">
+      <div className='overallrecruiter'>
 
-        <h4 id='recruitersheading' >Our Recruiters</h4>
+        <h4 id='recruitersheading' data-aos="fade-up"
+          data-aos-duration="5000" >Our Recruiters</h4>
 
         <div className='recruitershead'>
           <marquee scrollamount="20">

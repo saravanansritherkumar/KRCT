@@ -1,16 +1,13 @@
-
 .carousel-item>img
 {
     width: 100%;
     height:545px;
 }
 .caroo .carousel-inner{
-    /* background-color:red; */
     background-image: url(../../Assets/images/Header/download.jpg);
     background-repeat: no-repeat;
 
 }
-
 #imag1
 {
     margin-top: 20px;
@@ -30,26 +27,17 @@
     word-spacing: 2px;
     font-size: 15px;
 }
-.news-section
-{
-    display: flex;
-    /* width: 100%; */
-    justify-content: space-around;
-    margin-bottom: 100px;
-
-}
-.cardy
-{
-    display: flex;
-}
-
 .why-krct .myCard .card-body .card-content{
     position:relative;
-    top:-50px;
+    top:-80px;
     /* left: 30px; */
     padding:10px 50px;
     /* height: 250px;
     width: 300px; */
+}
+.why-krct .myCard .card-body .card-content:hover{
+    top:-120px;
+    transition-duration:0.8s;
 }
 .myCard .card-title{
     text-align:center;
@@ -71,6 +59,8 @@
    
     display: flex;
     margin-bottom: 14px;
+    /* margin-left: 20px; */
+
 }
 .hh
 {
@@ -106,7 +96,11 @@
     font-weight: 600;
     font-size: 13px;
 }
-
+.text {
+    background-color: #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 65px;
+}
 .text .container .row .card
 {
     width: 100%;
@@ -119,6 +113,18 @@
     color: white;
     font-weight: 500;
 }
+#text-head
+{
+    margin-bottom: 40px;
+}
+.why-krct
+{
+    padding-top: 50px;
+}
+/* #why-krct-head
+{
+    margin-left: 14px;
+} */
 .why-krct .container .row .card .btn
 {
     background-color: #3895d3;
@@ -144,6 +150,7 @@
     width: 100%;
     height: 520px;
     margin-bottom: 15px;
+    border:none;
     /* box-shadow:  -2px -5px 20px #3895d3; */
 
 }
@@ -152,7 +159,7 @@
     background-color: white;
     padding: 35px;
     border-radius: 25px;
-    box-shadow:  -2px -5px 20px black
+    box-shadow:  0 0 30px rgb(125, 124, 124);
 }
 
 .why-krct .container .row .card img

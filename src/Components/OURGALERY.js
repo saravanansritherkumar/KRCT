@@ -12,9 +12,9 @@ import '../Components/OURGALLERY.css'
 const OURGALERY = () => {
   return (
     <>
-      <h4 className='galleryheading'>Our Gallery</h4>
       <div className='container-fluid' id='gallery'>
 
+      <h4 className='galleryheading'>Our Gallery</h4>
 
         <div className='container'>
 

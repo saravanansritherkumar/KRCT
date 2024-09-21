@@ -16,7 +16,7 @@ const Navbar1 = () => {
           <li>Research</li>
           <li>Online Fees</li>
           <div className='dropdown'>
-          <li className='dropdown-toggle' data-toggle="dropdown" id='dropp'>Department</li>
+          <li className='dropdown-toggle' id='dropp'>Department</li>
           <div className='dropdown-menu'>
             <li className='dropdown-item'>CSE</li>
             <li className='dropdown-item'>AIDS</li>

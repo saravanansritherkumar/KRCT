@@ -72,7 +72,7 @@ const Footer = () => {
 
                 <div className='footerconect1 '>
 
-                  <i class="fa-solid fa-location-pin" id='footericons'></i>
+                  <i class="fa-solid fa-location-dot" id='footericons'></i>
 
                   <p className='footercontent'> Kariyamangalam Road, <br></br> Samayapuram <br></br> Trichy-621112</p>
                 </div>

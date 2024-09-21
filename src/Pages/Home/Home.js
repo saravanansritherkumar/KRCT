@@ -48,20 +48,19 @@ const Home = () => {
 
       {/* ABOUT-US */}
       <div className="about-section m-lg-5">
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <div className="col-lg-6 p-2" id='about-us'>
               <h1>About Us</h1>
               <div className='border-botom'><span className='hh'></span><span className='hh1'></span></div>
               <div cla></div>
-              <p id='about-para' data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
+              <p id='about-para' data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                 KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p>
             </div>
             <div className="col-lg-6 p-3">
               <center>
-                <img src={img1} alt="" id='imag1' />
+                <img data-aos="zoom-in" data-aos-duration="10" src={img1} alt="" id='imag1' />
               </center>
             </div>
           </div>
@@ -72,6 +71,7 @@ const Home = () => {
       <center>
         <div className="text">
           <div className="container">
+            <h1 id='text-head'>LATEST NEWS & UPDATES</h1>
             <div className="row">
               <div className="col-lg-9">
                 <div className="row">
@@ -100,7 +100,7 @@ const Home = () => {
 
 
               <div className="col-lg-3 News-feed">
-                <marquee behaviour="infinite" direction="up" id="myMarq">
+                <marquee direction="up" id="myMarq">
                   {/* --------------------------------------------------------------------------------------------------------------- */}
                   <div className="row my-3 p-3">
                     <div className="col-3 news-box">
@@ -192,7 +192,7 @@ const Home = () => {
 
       <div className="why-krct" >
         <div className="container">
-          <h1>WHY KRCT</h1>
+          <h1 id='why-krct-head'>WHY KRCT</h1>
           <div className='border-botom'><span className='hh'></span><span className='hh1'></span></div>
 
           <div className="row">
@@ -203,7 +203,7 @@ const Home = () => {
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">EXPERIENCED FACULTY</h5>
-                    <p class="card-text">Apporpriately Qualified And Experienced Faculty - Current,Contempory And Update - Mentoring,Counselling,Guiding </p>
+                    <p class="card-text">Apporpriately Qualified And Experienced Faculty - Current,Contempory And Update - Mentoring,Counselling,Guiding <br /><br /></p>
                     <a href="#" class="btn">Go somewhere</a>
                   </div>
                 </div>
@@ -229,7 +229,7 @@ const Home = () => {
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">Research</h5>
-                    <p class="card-text">Department of Computer Science and engineering received center for research,awarded by Anna University.</p>
+                    <p class="card-text">Department of Computer Science and engineering received center for research,awarded by Anna University.<br /><br /></p>
                     <a href="#" class="btn ">Go somewhere</a>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ const Home = () => {
                 <div class="card-body">
                   <div className="card-content">
                     <h5 class="card-title">Academic Excellence</h5>
-                    <p class="card-text">Consistent good result and ranks in Anna University Examinations... </p>
+                    <p class="card-text">Consistent good result and ranks in Anna University Examinations...<br /><br /> </p>
                     <a href="#" class="btn ">Go somewhere</a>
                   </div>
                 </div>
