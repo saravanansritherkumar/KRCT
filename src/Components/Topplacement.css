@@ -77,6 +77,17 @@
     font-size: 40px;
 }
 
+#wiproimg{
+    height: 100px;
+    width: 100px;
+}
+#krimg{
+    height: 50px;
+    width: 50px;;
+}
+#topname{
+    color: yellow;
+}
 
 @media screen and (max-width:768px){
 

@@ -7,12 +7,12 @@ import Half2 from './Half2'
 const App = () => {
   return (
     <div>
-      {/* <Half1/>
+      <Half1/>
       <Counter/>
 
-      <Half/> */}
+      <Half/>
 
-      <Half2/>
+      {/* <Half2/> */}
       
     </div>
   )
