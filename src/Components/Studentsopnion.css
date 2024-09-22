@@ -54,7 +54,7 @@
     padding-top: 20px;
     font-family: poppins;
     padding-top: 50px;
-    font-size: 25px;
+    font-size: 40px;
 
 
 }
@@ -86,11 +86,24 @@
         width: 300px;
         border: solid  black 1px;
         border-radius: 20px;
-        background-color: rgba(255, 255, 255, 0.358);
+        background-color:white;
     }
     .overallbox{
 
         justify-content: center;
 
     }
+    #mainheadingopinion{
+
+        color:rgb(243, 243, 28);
+        text-align: center;
+        padding-top: 20px;
+        font-family: poppins;
+        padding-top: 50px;
+        font-size: 25px;
+    
+    
+    }
+    
+
 }

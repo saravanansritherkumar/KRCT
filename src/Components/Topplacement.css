@@ -72,4 +72,49 @@
 
 
 }
+#tp-head{
+    color: #3895d3;
+    font-size: 40px;
+}
 
+
+@media screen and (max-width:768px){
+
+    #card-2
+{
+    transform: perspective(800px) ;
+    z-index: 60;
+
+}
+#card-3
+{
+    transform: perspective(800px) ;
+    z-index: 70;
+
+}
+#card-4
+{
+    transform: perspective(800px) ;
+    z-index: 60;
+
+
+}
+#card-1
+{
+    transform: perspective(800px) ;
+    
+
+}
+#card-5
+{
+    transform: perspective(800px) ;
+
+}
+#tp-head{
+    color: #3895d3;
+    font-size: 25px;
+}
+
+
+
+}

@@ -11,6 +11,7 @@ const App = () => {
       <Counter/>
 
       <Half/> */}
+
       <Half2/>
       
     </div>

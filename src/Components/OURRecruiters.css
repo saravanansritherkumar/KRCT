@@ -11,10 +11,10 @@
 }
 #recruitersheading{
     text-align: center;
-    color: rgb(0, 119, 255);
+    color: #3895d3;
     font-family: poppins;
     margin-top: 20px;
-    font-size: 33px;
+    font-size: 40px;
     font-weight: 600;
 
 
@@ -36,4 +36,20 @@
 .overallrecruiter
 {
     margin-bottom: 0;
+}
+
+@media screen and (max-width:768px){
+
+    #recruitersheading{
+        text-align: center;
+        color: #3895d3;
+        font-family: poppins;
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: 600;
+    
+    
+    }
+    
+    
 }

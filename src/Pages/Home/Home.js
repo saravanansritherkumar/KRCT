@@ -52,7 +52,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 p-2" id='about-us'>
-              <h1>About Us</h1>
+              <h1 id='homeabout'>About Us</h1>
               <div className='border-botom'><span className='hh' onClick={()=>{b(true)}}></span><span className='hh1' onClick={()=>{b(false)}}></span></div>
               <div cla></div>
               {a ? <p id='about-para' data-aos="fade-up"

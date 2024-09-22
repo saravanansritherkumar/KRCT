@@ -51,7 +51,7 @@ const Topplacemnet = () => {
                         <div className="col-lg-2" id='card-4'>
                             <div className="card">
                                 <div className="card-body">
-                                    <img src={img1} alt="" className='img-fluid' />
+                                    <img src={img1} alt="" className='img-fluid' id='img-fluid-2'/>
                                     <div className="card-content">
                                         <h5>suraj</h5>
                                         <p>wipro</p>
