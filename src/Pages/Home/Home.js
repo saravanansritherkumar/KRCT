@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img1 from "../../Assets/images/Backgate.jpeg"
 import "../Home/Home.css"
 import img2 from "../../Assets/images/Group2.jpg"
@@ -14,6 +14,7 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 const Home = () => {
+  const [a, b] = useState(true)
   return (
     <>
       <div className="caroo">
@@ -52,11 +53,15 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-6 p-2" id='about-us'>
               <h1>About Us</h1>
-              <div className='border-botom'><span className='hh'></span><span className='hh1'></span></div>
+              <div className='border-botom'><span className='hh' onClick={()=>{b(true)}}></span><span className='hh1' onClick={()=>{b(false)}}></span></div>
               <div cla></div>
-              <p id='about-para' data-aos="fade-up"
+              {a ? <p id='about-para' data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom">
-                KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p>
+                KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p> : 
+                <p id='about-para' data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom">
+                    K.Ramakrishnan College of Technology, Tiruchirappalli, situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young aspirants by imparting technical, behavioral and value based education where we focus on empowering the students to get placed in World Class Corporate and introducing rich corporate culture to meet the hurdles and challenges of corporate sector and also augment the knowledge of students, foster their talents and broaden their outlook towards life by enhancing their personality, communication and bringing in entrepreneurial skills.
+                </p>}
             </div>
             <div className="col-lg-6 p-3">
               <center>

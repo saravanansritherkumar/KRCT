@@ -19,7 +19,7 @@ AOS.init();
 
 const OURRecruiters = () => {
   return (
-    <div>
+    <>
 
       <div className='overallrecruiter'>
 
@@ -71,7 +71,7 @@ const OURRecruiters = () => {
 
       </div>
 
-    </div>
+    </>
   )
 }
 

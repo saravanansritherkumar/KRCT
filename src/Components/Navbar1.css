@@ -6,8 +6,8 @@
     width: 100%;
     flex-wrap: wrap;
     color: white;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
     padding: 15px;
     box-shadow: 5px 5px 5px grey;
 }
@@ -20,7 +20,7 @@
 }
 .navbar-main li:hover
 {
-    color: black;
+    color: rgb(255, 152, 49);
 }
 .navbar-main .dropdown-menu
 {

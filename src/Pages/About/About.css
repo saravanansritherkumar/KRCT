@@ -1,0 +1,114 @@
+.header1{
+
+    background-color: rgba(212, 211, 211, 0.749);
+    height: 120px;
+    display: flex;
+    box-shadow: 0px 3px 3px 0px ;
+
+}
+
+#Aboutheading{
+    font-size: 30px;
+    font-family: poppins;
+    padding-top: 30px;
+    color: rgb(0, 102, 255);
+}
+#sidenavigator{
+    padding-top: 50px;
+    font-size: 15px;
+}
+ #icon{
+    color: grey;
+    font-size: 15px;
+}
+#aboutpara{
+    font-size: 15px;
+    font-family: poppins;
+}
+#head2border{
+    border-top: solid rgb(0, 110, 255) 3px;
+}
+#abouthead2{
+    color: rgb(0, 110, 255) ;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+#awardimg
+{
+    height: 100px;
+    width: 100px;
+}
+#aboutcard1{
+    margin-top: 10px;
+}
+#chairmanhead{
+    font-size: 15px;
+    padding-top: 10px;
+}
+#charrole{
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+#aboutcard{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#charname{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+#aboutbreadcrum{
+    background-color: rgba(206, 205, 205, 0.764);
+    padding: 25px;
+    margin-bottom: 50px;
+}
+#breadcrumvalue{
+    color: black;
+    text-decoration: none;
+}
+#abouthead{
+    color: rgb(0, 110, 255);
+    font-size: 25px;
+    padding-left: 30px;
+}
+#breadcrumvalues1{
+    padding-left: 1100px;
+}
+@media screen and (max-width:800px) {
+
+    #aboutpara{
+        font-size: 12px;
+        font-family: poppins;
+        margin-top: 25px;
+    }
+    #Aboutheading{
+        font-size: 20px;
+        display: flex;
+    }
+    #sidenavigator{
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    #icon{
+        font-size: 10px;
+    }
+    #abouthead2{
+        color: rgb(0, 110, 255) ;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #headname{
+        margin-left: 300px;
+    }
+    #breadcrumvalues1{
+        padding-left: 1100px;
+    }
+    
+
+    
+    
+    
+}
