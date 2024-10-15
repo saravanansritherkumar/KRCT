@@ -12,7 +12,7 @@ const Navbar1 = () => {
           <li>Administration</li>
           <li>Academics</li>
           <li>Placement</li>
-          <li>Campus life</li>
+          {/* <li>Campus life</li>
           <li>Research</li>
           <li>Online Fees</li>
           <div className='dropdown'>
@@ -34,7 +34,7 @@ const Navbar1 = () => {
           <li>Iconnect</li>
           <li>BLog</li>
           <li>Careers</li>
-          <li>Contact</li>
+          <li>Contact</li> */}
        </div>
     </>
   )

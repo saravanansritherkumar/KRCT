@@ -17,7 +17,8 @@ const Home = () => {
   const [a, b] = useState(true)
   return (
     <>
-      <div className="caroo">
+
+      {/* <div className="caroo">
         <div className="carousel-section">
           <div className="carousel slide" id='crs'>
 
@@ -44,7 +45,51 @@ const Home = () => {
             <a href="#crs" className='carousel-control-next'><span data-target='#crs' data-slide='next' className='carousel-control-next-icon'></span></a>
           </div>
         </div>
+      </div> */}
+
+
+
+
+      <div className="caroo">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div className='color-fill'>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div className="color-fill1">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div className="color-fill2">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
+
+
+
+
+
+
+
+
+
 
 
       {/* ABOUT-US */}
@@ -53,14 +98,14 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-6 p-2" id='about-us'>
               <h1>About Us</h1>
-              <div className='border-botom'><span className='hh' onClick={()=>{b(true)}}></span><span className='hh1' onClick={()=>{b(false)}}></span></div>
+              <div className='border-botom'><span className='hh' onClick={() => { b(true) }}></span><span className='hh1' onClick={() => { b(false) }}></span></div>
               <div cla></div>
               {a ? <p id='about-para' data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom">
-                KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p> : 
+                KRCT was started in 2010. it is approved by AICTE New Delhi, accredited by NAAC with A+ grade.K.Ramakrishnan college of technology, Tiruchirappalli,situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young asoirants by imparting technical, behavioural and valued based education</p> :
                 <p id='about-para' data-aos="fade-up"
                   data-aos-anchor-placement="top-bottom">
-                    K.Ramakrishnan College of Technology, Tiruchirappalli, situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young aspirants by imparting technical, behavioral and value based education where we focus on empowering the students to get placed in World Class Corporate and introducing rich corporate culture to meet the hurdles and challenges of corporate sector and also augment the knowledge of students, foster their talents and broaden their outlook towards life by enhancing their personality, communication and bringing in entrepreneurial skills.
+                  K.Ramakrishnan College of Technology, Tiruchirappalli, situated in the famous temple town Samayapuram, is a premiere organization striving to bring in constructive transformation in young aspirants by imparting technical, behavioral and value based education where we focus on empowering the students to get placed in World Class Corporate and introducing rich corporate culture to meet the hurdles and challenges of corporate sector and also augment the knowledge of students, foster their talents and broaden their outlook towards life by enhancing their personality, communication and bringing in entrepreneurial skills.
                 </p>}
             </div>
             <div className="col-lg-6 p-3">
@@ -71,6 +116,15 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
 
       {/* LATEST-NEWS */}
       <center>
@@ -194,6 +248,7 @@ const Home = () => {
           </div>
         </div>
       </center>
+
 
       <div className="why-krct" >
         <div className="container">

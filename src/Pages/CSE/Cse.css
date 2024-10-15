@@ -1,0 +1,8 @@
+.cse .breadcrumbs
+{
+    background-color: #eeeeee;
+    padding: 20px;
+    box-shadow: 1px 1px 20px grey;
+    display: flex;
+    justify-content: space-between;
+}
